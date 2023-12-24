@@ -21,6 +21,19 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.main{
+    width: 50%;
+    position: relative;
+    height: 100%;
+    animation: mymove 1200ms ease-in-out;
+}
+.main-title{
+    width: 80%;
+}
+.main-img{
+    width:60%;
+    margin: 30px auto;
+}
 .menuLeft{
     width: 30%;
     position: relative;
